@@ -12,10 +12,10 @@
          return this.color;
      }
      getArea(){
-         return 3.14*this.radius*this.radius;  Area of circle = πr2
+         return 3.14*this.radius*this.radius; // Area of circle = πr2
      }
      getCircumference(){
-         return 2*3.14*this.radius;  circumference of a circle, C=2𝜋r
+         return 2*3.14*this.radius;  //circumference of a circle, C=2𝜋r
      }
  }
  var c1=new Circle(2.5,"red");
